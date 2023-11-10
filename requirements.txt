@@ -1,0 +1,10 @@
+scikit_image==0.17.1
+opencv_python==4.2.0.32
+editdistance==0.6.0
+tqdm==4.28.1
+torch==1.8.1
+scipy==1.10.1
+numpy==1.21.0
+torchvision==0.9.1
+Pillow==9.0.0
+tensorboardX==1.5
