@@ -44,10 +44,7 @@ def for_test(x_t):
     encoder = densenet121()
     attn_decoder1 = AttnDecoderRNN(hidden_size, 112, dropout_p=0.5)
 
-    # encoder = torch.nn.DataParallel(encoder, device_ids=gpu)
-    # attn_decoder1 = torch.nn.DataParallel(attn_decoder1, device_ids=gpu)
-    # encoder = encoder.cuda()
-    # attn_decoder1 = attn_decoder1.cuda()
+  
     encoder = nn.DataParallel(encoder)
     encoder.load_state_dict(torch.load('encoder_lr0.00001_GN_te1_d05_SGD_bs6_mask_conv_bn_b_xavier.pkl', map_location=torch.device('cpu')))
     encoder = encoder.module
