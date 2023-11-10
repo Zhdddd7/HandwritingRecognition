@@ -2,6 +2,8 @@ from PIL import Image
 import numpy as np
 import torch
 from test_model import for_test
+
+#here is an example
 image_path="31_em_191_0.bmp"
 image = Image.open(image_path).convert('L')
 def imresize(im, sz):
