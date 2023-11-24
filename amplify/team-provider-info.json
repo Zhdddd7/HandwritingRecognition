@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartwritingtool-dev-14253-authRole",
+      "UnauthRoleArn": "arn:aws:iam::647955144917:role/amplify-smartwritingtool-dev-14253-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::647955144917:role/amplify-smartwritingtool-dev-14253-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smartwritingtool-dev-14253-deployment",
+      "UnauthRoleName": "amplify-smartwritingtool-dev-14253-unauthRole",
+      "StackName": "amplify-smartwritingtool-dev-14253",
+      "StackId": "arn:aws:cloudformation:us-east-1:647955144917:stack/amplify-smartwritingtool-dev-14253/b24fc830-8a94-11ee-8ed8-12968e9df189",
+      "AmplifyAppId": "dniiiu373o1vg"
+    }
+  },
+  "thc": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartwritingtool-thc-15722-authRole",
+      "UnauthRoleArn": "arn:aws:iam::647955144917:role/amplify-smartwritingtool-thc-15722-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::647955144917:role/amplify-smartwritingtool-thc-15722-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smartwritingtool-thc-15722-deployment",
+      "UnauthRoleName": "amplify-smartwritingtool-thc-15722-unauthRole",
+      "StackName": "amplify-smartwritingtool-thc-15722",
+      "StackId": "arn:aws:cloudformation:us-east-1:647955144917:stack/amplify-smartwritingtool-thc-15722/b7e32bf0-8a96-11ee-a079-124714cdee67",
+      "AmplifyAppId": "dniiiu373o1vg"
+    }
+  }
+}
