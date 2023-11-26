@@ -26,7 +26,7 @@ const AINOte = ({ navigation }) => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/generate_subtopic',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/generate_subtopic',
         data: {
           user_input: inputValue,
         },
@@ -57,7 +57,7 @@ const AINOte = ({ navigation }) => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/generate_more_subtopic',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/generate_more_subtopic',
         data: {
           user_input: inputValue,
         },
@@ -82,7 +82,7 @@ const AINOte = ({ navigation }) => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/generate_subtopic',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/generate_subtopic',
         data: {
           user_input: selectedItem,
         },
@@ -107,7 +107,7 @@ const AINOte = ({ navigation }) => {
     try {
       const response = await axios({
         method: 'get',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/generate_summary',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/generate_summary',
         headers: {
           'Content-Type': 'application/json',
         },

@@ -10,7 +10,7 @@ export function mathpixText(data: any) {
 
 export function awsapprunnerLogin(data: any) {
   return request({
-    url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/login',
+    url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/login',
     method: 'post',
     data: data,
   });

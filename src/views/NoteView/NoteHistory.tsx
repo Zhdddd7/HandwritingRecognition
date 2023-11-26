@@ -13,7 +13,7 @@ const NoteHistory = ({navigation}) => {
     try {
       const response = await axios({
         method: 'get',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/gain_user_note',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/gain_user_note',
         headers: {
           'Content-Type': 'application/json',
         },

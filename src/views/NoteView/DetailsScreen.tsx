@@ -17,7 +17,7 @@ const DetailsScreen = () => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/generate_information',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/generate_information',
         data: {
           user_input: trimmedResultText,
         },

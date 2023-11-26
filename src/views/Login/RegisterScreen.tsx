@@ -14,7 +14,7 @@ const RegisterScreen = () => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/register',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/register',
         headers: {
           'Content-Type': 'application/json',
         },

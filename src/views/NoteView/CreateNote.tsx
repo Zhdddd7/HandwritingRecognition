@@ -31,7 +31,7 @@ const CreateNewScreen = ({ navigation }) => {
     try {
       const response = await axios({
         method: 'post',
-        url: 'https://hwpw6dkasy.us-west-2.awsapprunner.com/store_user_input',
+        url: 'https://p9tufutm4h.us-west-2.awsapprunner.com/store_user_input',
         data: {
           user_input: inputValue,
         },
